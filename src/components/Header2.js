@@ -31,6 +31,12 @@ const Header2 = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container">
           <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="form-inline my-lg-0">
+              <button className="btn btn-outline-light my-2 my-sm-0" type="submit" style={{ width:"200px"}}>
+                <i className="fas fa-search"></i>
+              </button>
+              <button className="btn btn-light my-2 my-sm-0 ml-2 text-white" style={{ background: "#08487e" }} type="submit">Request a Quote</button>
+            </div>
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a className="nav-link text-white" href="/">Home</a>
@@ -56,12 +62,7 @@ const Header2 = () => {
               <li className="nav-item">
                 <a className="nav-link text-white" href="/contact">Contact</a></li>
             </ul>
-            <div className="form-inline my-lg-0" style={{ paddingLeft: '400px' }}>
-              <button className="btn btn-outline-light my-2 my-sm-0" type="submit">
-                <i className="fas fa-search"></i>
-              </button>
-              <button className="btn btn-light my-2 my-sm-0 ml-2 text-white" style={{ background: "#08487e" }} type="submit">Request a Quote</button>
-            </div>
+           
 
             <div style={{ border: '1px solid white', color: 'white', padding: '10px',  width: '300px'}}>
         <div>
