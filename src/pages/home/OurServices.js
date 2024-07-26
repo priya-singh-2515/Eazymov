@@ -75,14 +75,14 @@ const OurServices = () => {
                           <div className="overlay1">
                             <h5>{imgs[index].h}</h5>
                             <hr
-              className="mb-4 mt-0 mx-auto"
-              style={{
-                width: 100,
-                backgroundColor: "#fff",
-                height: 2,
-                fontWeight: "800",
-              }}
-            />
+                             className="mb-4 mt-0 mx-auto"
+                             style={{
+                             width: 100,
+                             backgroundColor: "#fff",
+                             height: 2,
+                             fontWeight: "800",
+                            }}
+                            />
                             <p>{imgs[index].p}</p>
                             <button style={{background:'#0056b3',color:'#fff'}}>{imgs[index].button}</button>
                           </div>
@@ -97,14 +97,14 @@ const OurServices = () => {
                             <div className="overlay1">
                               <h5>{imgs[index + 1].h}</h5>
                               <hr
-              className="mb-4 mt-0 mx-auto"
-              style={{
-                width: 100,
-                backgroundColor: "#fff",
-                height: 2,
-                fontWeight: "800",
-              }}
-            />
+                               className="mb-4 mt-0 mx-auto"
+                               style={{
+                               width: 100,
+                               backgroundColor: "#fff",
+                               height: 2,
+                               fontWeight: "800",
+                               }}
+                              />
                               <p>{imgs[index + 1].p}</p>
                               <button style={{background:'#0056b3',color:'#fff'}}>{imgs[index + 1].button}</button>
                             </div>

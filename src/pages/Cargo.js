@@ -1,13 +1,12 @@
 import React from 'react'
-import Layout from '../components/Layout';
+import Layout from '../components/Layout'
 import About_banner from "../images/contactbg.jpg";
-const Overland = () => {
+
+const Cargo = () => {
   return (
-    <>
-     <Layout title={"Eazymov-Overland Network"}>
-
-
-     <div
+    <Layout title={"Eazymov-Services-Cargo"}>
+ 
+ <div
         className="container-fluid"
         style={{ position: "relative"}}
       >
@@ -42,7 +41,7 @@ const Overland = () => {
                 >
                   <div>
                     <h1 style={{ textAlign: "justify", fontSize: "2vw" }}>
-                      Overland Network
+                      Cargo
                     </h1>
                   </div>
                   <div>
@@ -61,7 +60,7 @@ const Overland = () => {
                       <>/</>
                       <li style={{ color: "#0B60A9" }}>Services</li>
                       <>/</>
-                      <li>Overland Network</li>
+                      <li>Cargo</li>
                     </ul>
                   </div>
                 </div>
@@ -75,7 +74,7 @@ const Overland = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
             <h3 style={{ textAlign: "justify", fontSize: "1.5vw" }}>
-              Overland Network
+             Cargo
             </h3>
             <hr style={{ backgroundColor: "#0B60A9", height: "2px" ,width:'10%',}}/>
           </div>
@@ -98,11 +97,8 @@ const Overland = () => {
           </div>
         </div>
      </div>
-
-
-     </Layout>
-    </>
+    </Layout>
   )
 }
 
-export default Overland
+export default Cargo

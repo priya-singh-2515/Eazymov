@@ -4,7 +4,9 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 const imgs = [
-    { img: "https://html.themesawesome.com/logitranshtml/img/slider/slide1.jpg" ,
+    { 
+      // img: "https://html.themesawesome.com/logitranshtml/img/slider/slide1.jpg" ,
+      img:"../img/img3.jpg",
       h:"PASSENGERS TRANSPORT",
       p:"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
     },
