@@ -8,7 +8,7 @@ const Header2 = () => {
           <div className="row align-items-center">
             <div className="d-flex justify-content-between w-100">
               <div className="col-md-3">
-                <img src="img/eazymov logo-1.png" alt="Logo" className="img-fluid" style={{ width: '150px' }} />
+                <img src="img/eazymov logo-1.png"  alt="Logo" className="img-fluid" style={{ width: '150px' }} />
               </div>
               <div>
                 <button

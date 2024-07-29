@@ -49,3 +49,18 @@
 
 
 
+
+
+
+.pdf-download {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.pdf-download i {
+  margin-right: 10px;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import About from "./pages/About";
 import Blog from "./pages/Blog";
@@ -25,10 +25,10 @@ const App = () => {
 
         <Route path="/services/overland" element={<Overland />} />
         <Route path="/services/ocean" element={<OceanNetwork />} />
-        <Route path="/services/air" element={<AirFreight />} />
+        <Route path="/services/airfreight" element={<AirFreight />} />
         <Route path="/services/cargo" element={<Cargo />} />
         <Route path="/services/storage" element={<Storage />} />
-        <Route path="/services/warehouse" element={<Warehouse />} />
+        <Route path="/services/warehousing" element={<Warehouse />} />
       </Routes>
     </>
   );
