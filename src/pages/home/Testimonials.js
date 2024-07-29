@@ -140,7 +140,7 @@ const Testimonials = () => (
         {testimonials.map((testimonial, index) => (
           <div className="each-slide" key={testimonial.id}>
             <div className="testimonial-content">
-              <img src={testimonial.image} alt={`client-${index}`} className='client-image' />
+              <img src={testimonial.image} alt={`client-${index}`} className='client-image'/>
               <p className="testimonial-text">"{testimonial.text}"</p>
               <h4 className="client-name">{testimonial.name}</h4>
               <p className="client-position">{testimonial.position}</p>
