@@ -11,7 +11,7 @@ const Contact = () => {
 
    <div
         className="container-fluid"
-        style={{ position: "relative"}}
+        style={{ position: "relative", zIndex: "0" }}
       >
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
@@ -40,7 +40,7 @@ const Contact = () => {
               >
                 <div
                   className="text-white"
-                  style={{ padding: "100px", flex: "wrap" }}
+                  style={{ padding: "200px", flex: "wrap" }}
                 >
                   <div>
                     <h1 style={{ textAlign: "justify", fontSize: "2vw" }}>
